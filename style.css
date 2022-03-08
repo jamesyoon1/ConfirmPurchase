@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: rgb(136, 136, 136);
+    color: rgb(88, 88, 88);
 }
 
 
@@ -45,6 +45,7 @@ h1 {
     left: 0;
     text-align: center;
     margin: auto;
+    padding-top: 
     font-weight: bold;
     font-size: 20px;
 }
@@ -85,7 +86,7 @@ h3 {
 .deal-details {
     font-size: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     padding-bottom: 20px;
     border-bottom: 1px solid rgb(202, 202, 202)
 }
@@ -96,7 +97,7 @@ h3 {
 }
 
 .discounted-price {
-    color: green;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     padding-right: 10px;
 
@@ -109,9 +110,13 @@ h3 {
     border: none;
     padding: 0px 8px 0px 8px;
     font-weight: 700;
-    border-radius: 10px;
     padding-right: 10px;
 
+}
+
+.cart {
+    background-color: white;
+    width:100%;
 }
 
 /* bottom continue ************************************************************* */
@@ -119,7 +124,6 @@ h3 {
 .continue-box {
     width: 100%;
     background-color: white;
-    left: 0;
 }
 
 .terms {
